@@ -1,0 +1,31 @@
+.profile-name, .profile-list, .profile-projects {
+    font-size: 2em;
+    text-align: center;
+}
+.tech-list {
+    list-style: none;
+}
+.project1-strangers-things {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.project1-title {
+    font-size: 2em;
+    margin: 0;
+}
+.project1-image {
+    margin-top: 50px;
+}
+.project1-links {
+    margin-right: 2em;
+    color: rgb(5, 52, 88);
+    text-decoration: none;
+}
+.project1-links:hover {
+    text-decoration: underline;
+    color: rgb(48, 93, 177);
+}
+.projects {
+    margin: 100px;
+}

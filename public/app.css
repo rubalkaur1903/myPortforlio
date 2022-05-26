@@ -1,0 +1,14 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.main-link {
+    margin: 1em;
+    color: rgb(88, 139, 162);
+    text-decoration: none;
+}
+.main-link:hover {
+    color: rgb(10, 60, 91);
+}

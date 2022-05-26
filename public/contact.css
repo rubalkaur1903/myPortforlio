@@ -1,0 +1,24 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.link-github, .link-linkedin {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 60%;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, .4);
+}
+.link-github {
+    color: black;
+}
+.link-linkedin {
+    color: rgb(64, 64, 231);
+}
+.link-github:hover, .link-linkedin:hover {
+    background-color: rgb(199, 202, 205);
+}
