@@ -6,9 +6,9 @@
 }
 .main-link {
     margin: 1em;
-    color: rgb(88, 139, 162);
+    color: rgb(138, 174, 190);
     text-decoration: none;
 }
 .main-link:hover {
-    color: rgb(10, 60, 91);
+    color: white;
 }
