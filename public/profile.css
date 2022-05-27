@@ -1,5 +1,9 @@
-.profile-name, .profile-list, .profile-projects {
+.profile-list, .profile-projects {
     font-size: 2em;
+    text-align: center;
+}
+.profile-name {
+    font-size: 3em;
     text-align: center;
 }
 .tech-list {
@@ -15,7 +19,7 @@
     margin: 0;
 }
 .project1-image {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .project1-links {
     margin-right: 2em;
@@ -27,5 +31,6 @@
     color: rgb(48, 93, 177);
 }
 .projects {
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
