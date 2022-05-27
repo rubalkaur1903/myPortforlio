@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 3em;
+    margin-top: 3em;
 }
 .intro-left {
     display: flex;

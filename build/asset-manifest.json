@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.6aeb7fe2.js",
+    "main.js": "/static/js/main.49bc564d.js",
     "static/media/Stranger's Things.png": "/static/media/Stranger's Things.a7161424a35b2aaac63a.png",
-    "static/media/IMG_6526 2.jpg": "/static/media/IMG_6526 2.717395da15e8e83b7bb2.jpg",
+    "static/media/IMG_6526 6.jpg": "/static/media/IMG_6526 6.7bba8c87d1b23e46d540.jpg",
     "index.html": "/index.html",
-    "main.6aeb7fe2.js.map": "/static/js/main.6aeb7fe2.js.map"
+    "main.49bc564d.js.map": "/static/js/main.49bc564d.js.map"
   },
   "entrypoints": [
-    "static/js/main.6aeb7fe2.js"
+    "static/js/main.49bc564d.js"
   ]
 }
