@@ -43,4 +43,17 @@
 .about-p-elem {
     margin: 2em;
 }
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+    }
+    .about-elements {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1200px) {
+    .intro {
+        flex-direction: row;
+    }
+}
 

@@ -30,7 +30,29 @@
     text-decoration: underline;
     color: rgb(48, 93, 177);
 }
+.project1-link-logo {
+    display: flex;
+    flex-direction: row;
+}
 .projects {
     margin-left: 100px;
     margin-right: 100px;
+}
+@media (max-width: 768px) {
+    .project1-strangers-things {
+        flex-direction: column-reverse;
+    }
+    .project1-link-logo {
+        flex-direction: column;
+    }
+    .project1-image {
+        width: 10em;
+        height: 10em;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 1200px) {
+    .project1-strangers-things {
+        flex-direction: row;
+    }
 }

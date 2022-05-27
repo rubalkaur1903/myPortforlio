@@ -24,8 +24,10 @@ const Profile = () => {
                             <p>Stranger's Things is a space for users to buy and sell new or used products from and to other users. The users can message other users about the price of their product or to know more details before their purchase.</p>
                             <p>It is a project creating register, login/logout, messaging, and posting abilities utilizing JWT, and API requests.</p>
                             <p><b>Technologies Used: </b>HTML, CSS, JavaScript, React</p>
-                            <a className="project1-links" href="https://github.com/rubalkaur1903/myPortforlio" target="_blank"><AiOutlineGithub /> GitHub</a>
-                             <a className="project1-links" href="https://polite-cucurucho-ad10e5.netlify.app/" target="_blank"><SiNetlify /> Live Link</a>
+                            <div className="project1-link-logo">
+                                <a className="project1-links" href="https://github.com/rubalkaur1903/myPortforlio" target="_blank"><AiOutlineGithub /> GitHub</a>
+                                <a className="project1-links" href="https://polite-cucurucho-ad10e5.netlify.app/" target="_blank"><SiNetlify /> Live Link</a>
+                            </div>
                         </div>
                         <div className="project1-image">
                             <img className="project1-image" src={img1} alt="image of shopping online" height="400px" width="500px" />

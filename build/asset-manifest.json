@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d396c8c9.js",
+    "static/media/Stranger's Things.png": "/static/media/Stranger's Things.a7161424a35b2aaac63a.png",
+    "static/media/IMG_6526 2.jpg": "/static/media/IMG_6526 2.717395da15e8e83b7bb2.jpg",
+    "index.html": "/index.html",
+    "main.d396c8c9.js.map": "/static/js/main.d396c8c9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d396c8c9.js"
+  ]
+}
