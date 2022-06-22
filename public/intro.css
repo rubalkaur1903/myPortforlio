@@ -6,25 +6,19 @@
 }
 .intro {
     display: flex;
-    justify-content: space-between;
-    font-size: 3em;
-    margin-top: 3em;
+    flex-direction: column-reverse;
 }
-.intro-left {
+/* .intro-left {
     display: flex;
     flex-direction: column;
-}
-.intro-left-name {
+} */
+/* .intro-left-name {
     margin: 0;
     font-size: 2em;
 }
 .intro-left-title {
     margin: 0;
-}
-.intro-right {
-    margin-right: 3em;
-    font-size: 1.5em;
-}
+} */
 .summary {
     font-size: 1.5em;
     margin-top: 5em;
@@ -47,6 +41,9 @@
 @media (max-width: 768px) {
     .intro {
         flex-direction: column;
+    }
+    .intro-left {
+        text-align: center;
     }
     .about-elements {
         flex-direction: column;

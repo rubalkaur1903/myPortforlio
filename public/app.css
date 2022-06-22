@@ -1,14 +1,25 @@
-
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    margin: 20px;
+}
+.header-left {
+    font-size: 2em;
+}
 .navbar {
     display: flex;
-    justify-content: center;
-    margin: 2em;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .main-link {
     margin: 1em;
-    color: rgb(138, 174, 190);
+    color: white;
     text-decoration: none;
 }
 .main-link:hover {
-    color: white;
+    color: burlywood;
 }
