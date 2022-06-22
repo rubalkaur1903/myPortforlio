@@ -19,7 +19,12 @@
     margin: 1em;
     color: white;
     text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
 }
 .main-link:hover {
     color: burlywood;
+    background-color: white;
+    color: black;
 }
