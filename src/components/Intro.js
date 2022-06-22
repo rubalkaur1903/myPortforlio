@@ -10,9 +10,9 @@ const Intro = () => {
                 <div>
                     <img className="intro-image" src={img1} width="380px" height="400px"></img>
                 </div>
-                <div className="intro-left">
-                    <p className="intro-left-name">Rubal Kaur</p>
-                    <p className="intro-left-title">Web Developer</p>
+                <div className="intro-right">
+                    <p className="intro-right-name">Rubal Kaur</p>
+                    <p className="intro-right-title">Web Developer</p>
                 </div>
             </div>
             <div className="summary">
