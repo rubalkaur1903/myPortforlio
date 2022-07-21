@@ -53,6 +53,9 @@
     }
     .about-elements {
         flex-direction: column;
+        margin: 0;
+        text-align: center;
+        padding: 0;
     }
 }
 @media (min-width: 1200px) {
