@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.a2a0b62a.js",
+    "main.js": "/static/js/main.b0b2a38a.js",
+    "static/media/Screen Shot 2022-07-22 at 10.21.32 PM.png": "/static/media/Screen Shot 2022-07-22 at 10.21.32 PM.57861a563d9b92c2b2c1.png",
     "static/media/Stranger's Things.png": "/static/media/Stranger's Things.a7161424a35b2aaac63a.png",
     "static/media/NamasteYogaSS.png": "/static/media/NamasteYogaSS.a1a48d321748ad049680.png",
     "static/media/IMG_4283 2.jpg": "/static/media/IMG_4283 2.53c62c8205e19348202a.jpg",
     "index.html": "/index.html",
-    "main.a2a0b62a.js.map": "/static/js/main.a2a0b62a.js.map"
+    "main.b0b2a38a.js.map": "/static/js/main.b0b2a38a.js.map"
   },
   "entrypoints": [
-    "static/js/main.a2a0b62a.js"
+    "static/js/main.b0b2a38a.js"
   ]
 }

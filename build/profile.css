@@ -6,7 +6,7 @@
     font-family: 'Edu SA Beginner', 'cursive';
 }
 
-.project1, .project2 {
+.project1, .project2, .project3 {
     box-sizing: border-box;
     padding: 20px;
     background: #fff;
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
 }
-.project1-img {
+.project1-img, .project3-img {
     width: 400px;
     height: 260px;
     border-radius: 10px;
@@ -28,18 +28,19 @@
     border-radius: 10px;
 }
 
-.project1-p, .project2-p {
+
+.project1-p, .project2-p, .project3-p {
     color: black;
     padding-left: 10px;
 }
 
-.project1-links, .project2-links {
+.project1-links, .project2-links, .project3-links {
     padding: 5px;
     text-decoration: none;
     color: black;
 }
 
-.project1-links:hover, .project2-links:hover {
+.project1-links:hover, .project2-links:hover, .project3-links:hover {
     text-decoration: underline;
     color: blue;
 }
@@ -59,7 +60,7 @@
 }
 
 @media (max-width: 786px) {
-    .project1, .project2 {
+    .project1, .project2, .project3 {
         flex-direction: column;
     }
 }
@@ -68,11 +69,11 @@
         width: 100%;
         height: 200px;
     }
-    .project2-img {
+    .project2-img, .project3-img {
         width: 100%;
         height: 250px;
     }
-    .project1, .project2 {
+    .project1, .project2, .project3 {
         margin: 10px;
     }
     
