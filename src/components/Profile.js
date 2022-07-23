@@ -5,6 +5,7 @@ import { GrHeroku } from "react-icons/gr";
 import { SiNetlify } from "react-icons/si"
 import img1 from "../images/Stranger's Things.png"
 import img2 from "../images/NamasteYogaSS.png"
+import img3 from "../images/Screen Shot 2022-07-22 at 10.21.32 PM.png"
 
 const Profile = () => {
     return (
@@ -18,6 +19,22 @@ const Profile = () => {
                 </ul>
             </div>
             <h3 className="projects-heading">Projects:</h3>
+            <div className="project3">
+                <div className="project3-img-div">
+                    <img className="project3-img" src={img3} alt="image of shopping online" />
+                </div>
+                <div className="project3-p">
+                    <h1 className="project3-title">Amazon clone</h1>
+                    <h3>Currently working on it.</h3>
+                    <p>Designed a website just like amazon. The products can be added to cart, created checkout-page,user authentication, payment processing, order history page.</p>
+                    <p>It is a project creating register, login/logout, cart and rest of the features are in progress.</p>
+                    <p><b>Technologies Used: </b>HTML, CSS, JavaScript, React, Firebase</p>
+                    <div className="project3-link-logo">
+                        <a className="project3-links" href="https://github.com/rubalkaur1903/amazon-clone" target='_black'><AiOutlineGithub /> GitHub</a>
+                        {/* <a className="project3-links" href="https://polite-cucurucho-ad10e5.netlify.app/" target="_blank"><SiNetlify /> Live Link</a> */}
+                    </div>
+                </div>
+            </div>
             <div className="project1">
                 <div className="project1-img-div">
                     <img className="project1-img" src={img2} alt="Namaste Yoga Home" />
@@ -26,7 +43,7 @@ const Profile = () => {
                     <h1 className="project1-title">Namaste Yoga Studio</h1>
                     <p>Namaste Yoga is a website for a Namaste Yoga Studio business(not real) that highlights the environment and culture of the studio. It also highlights the team members and the perks of working at the Studios. It gives an opportunity to submit an application to the job seekers.</p>
                     <p>It is a project creating home, about, team, and career pages.</p>
-                    <p><b>Technologies Used: </b>HTML, CSS, JavaScript, React, Node.js, Express.js, SQL, PostgreSQL.</p>
+                    <p><b>Technologies Used: </b>HTML, CSS, JavaScript, React, Node.js, Express.js, SQL, PostgreSQL, Heroku.</p>
                     <div className="project1-link-logo">
                         <a className="project1-links" href="https://github.com/rubalkaur1903/Namaste_Yoga_Studio" target="_blank"><AiOutlineGithub /> GitHub</a>
                         <a className="project1-links" href="https://floating-lowlands-88076.herokuapp.com/" target="_blank"><GrHeroku /> Live Link</a>
